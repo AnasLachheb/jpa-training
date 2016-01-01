@@ -6,7 +6,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="" />
         <datasource-mapping>
-          <factory-entry name="persistenceUnit" />
+          <factory-entry name="persistenceUnit" value="f3c2ed0f-abc8-43a5-b4e2-9417100fea8f" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
@@ -39,5 +39,6 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.6" level="project" />
   </component>
 </module>
